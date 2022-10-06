@@ -32,6 +32,7 @@
                 Highscores
             </h2>
         </div>
+        <div>
                 <div id="intro-text">
                     <p>
                         To begin, press the "Start" button and your quiz will begin.<br> The quiz will consist of 4 questions with 4 multiple choice for you to answer.<br>
@@ -40,12 +41,24 @@
                         initials and save your score!
                     </p>
                 </div>
+                <section id="quiz">  
+                    <div class="quiz-box">
+                        <h2 id="question">Random.</h2>
+                            <button class="answers" id="answerOne" onclick="ansQuestion(0)">Ans1</button><br/>
+                            <button class="answers" id="answerTwo" onclick="ansQuestion(1)">Ans2</button><br/>
+                            <button class="answers" id="answerThree" onclick="ansQuestion(2)">Ans3</button><br/>
+                            <button class="answers" id="answerFour" onclick="ansQuestion(3)">Ans4</button><br/>
+                    </div>
+                </section> 
+        </div>
         <div id="timer">
             <h2 id="timer-text">
                 Timer
             </h2>
         </div>
     </main>
+
+
 
 
     <!-- End of Main section -->
@@ -65,15 +78,7 @@
     <!-- Beginning of quiz -->
 
 
-    <!-- <section id="quiz"> 
-        <div class="quiz-box">
-            <h2 id="question">_____ is the process of finding errors.</h2>
-                <button class="answers" id="0" onclick="ansQuestion(this.id)">Ans1</button>
-                <button class="answers" id="1" onclick="ansQuestion(this.id)">Ans2</button>
-                <button class="answers" id="2" onclick="ansQuestion(this.id)">Ans3</button>
-                <button class="answers" id="3" onclick="ansQuestion(this.id)">Ans4</button>
-        </div>
-    </section> -->
+     
 
 
     <!-- End of quiz -->

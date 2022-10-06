@@ -42,6 +42,7 @@ h1 {
     border: 4px solid var(--secondary);
     color: var(--secondary);
     background-color: var(--maincolor);
+    
 
 }
 
@@ -77,4 +78,17 @@ h1 {
     color: var(--secondary);
     background-color: var(--maincolor);
     box-shadow: 0 -0.6em 0 --.35em rgba(0, 0, 0, 0.17);
+}
+
+#quiz {
+    text-align: center;
+    margin:50px;
+    line-height: 2;
+    font-size: 25px;
+    /* border: 5px solid var(--maincolor); */
+    border: 4px solid var(--secondary);
+    color: var(--secondary);
+    background-color: var(--maincolor);
+    display:none;
+
 }
